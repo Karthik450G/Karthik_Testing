@@ -1,0 +1,43 @@
+{
+    "auth": {
+        "username": "karthikgajula_P5l4pm",
+        "access_key": "Wcjy3zrpmHGpBH4XQ5Nc"
+    },
+    "browsers": [
+        {
+            "browser": "chrome",
+            "os": "Windows 10",
+            "versions": [
+                "latest",
+                "latest-1"
+            ]
+        },
+        {
+            "browser": "firefox",
+            "os": "Windows 10",
+            "versions": [
+                "latest"
+            ]
+        }
+        
+    ],
+    "run_settings": {
+        "cypress_config_file": "./cypress.json",
+        "project_name": "KarthikTest",
+        "build_name": "CypressBuild",
+        "parallels": "3",
+        "npm_dependencies": { 
+            "cypress": "^14.2.1",
+            "cypress-cucumber-preprocessor": "^4.0.0"
+          },
+        "package_config_options": {},
+        "headless": true
+    },
+    "connection_settings": {
+        "local": false,
+        "local_identifier": null,
+        "local_mode": null,
+        "local_config_file": null
+    },
+    "disable_usage_reporting": false
+}
